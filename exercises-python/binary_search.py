@@ -10,6 +10,7 @@ def binary_search(numbers, target_value):
         if guess == target_value:
             return mid, guess
         elif guess < target_value:
+            
             low = mid + 1
         else:
             high = mid - 1     
